@@ -1,0 +1,32 @@
+.home {
+    background-image: url(./image-landscape-049d8abf-9978-4d1f-9b8d-3597425c64d0-default_0.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    text-align: center;
+    color: rgba(0, 0 , 0 , 0.6);
+    box-shadow: 2px 5px 20px 10px;
+    padding-top: 5%;
+}
+h2::after{
+content: "|";
+animation-name: ahmed;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+text-align: center;
+
+
+}
+@keyframes ahmed{
+0%{    content: "Z|";}
+10%{    content: "Za|";}
+20%{    content: "Zar|";}
+30%{    content: "Zara|";}
+40%{    content: "Zar|";}
+50%{    content: "Za|";}
+60%{    content: "Z|";}
+70%{    content: "|";}
+
+
+
+}
